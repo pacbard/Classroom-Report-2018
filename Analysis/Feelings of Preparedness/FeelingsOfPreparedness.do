@@ -1,9 +1,6 @@
 ** Load data
 use "StudentSurveyData.dta", clear
 
-** Generate dummy for github use
-tab githubuse, gen(github)
-
 ** Calculate alpha score for the preparation scale
 alpha teamworkcollab populartools projectmanagement futureinterncareer developercommunity portfolio advancedcourses, item
 
